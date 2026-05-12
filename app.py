@@ -137,7 +137,7 @@ def analytics_charts(log, label=""):
 
 # ── Page ──────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Fitness Center Traffic Tracker",
+    page_title="RecFlow App",
     page_icon="🏋️",
     layout="wide",
 )
