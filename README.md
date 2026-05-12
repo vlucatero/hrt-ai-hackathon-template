@@ -1,32 +1,65 @@
-# 🏋️ Fitness Center Foot Traffic Tracker
+# <center> ![alt text](image.png) 
+<h1><center>
+RecFlow App
+</h1>
 
-A web dashboard for tracking and analyzing visitor foot traffic across Cal State East Bay's fitness centers, helping staff optimize operations and giving patrons real-time busyness insights.
+A simple easy to use tracking system that analyzes foot traffic for you! Say goodbye to the days of manually inputing data into spreadsheets and creating indivudual graphs for presentations. 
 
-## What It Does
+<center> <i> RecFlow does all the heavy lifting,
+<BR> so you can get back to what matters most.</i>
+<p>
 
-- **Logs and analyzes daily check-ins** by date, time, and campus — with heatmaps and trend charts that reveal peak hours, slow periods, and day-of-week patterns
-- **Compares both campuses** (Turlock and Stockton) side by side, showing hourly, daily, and seasonal traffic differences
-- **Analyzes semester-level membership data** from Fusion Innosoft, including visit frequency, gender breakdown, engagement tiers, and member retention across Fall 2023 and Spring 2024
+   > Get started, view data, track trends, and do more. 
 
-## How to Use
+   > Improving fitness centers since 2026.  
+</center> 
 
-1. **Select a campus** from the sidebar (Turlock, Stockton, or Both Campuses)
-2. **Daily Traffic Log tab** — Record visitor check-ins using the Quick Log button for instant one-tap logging, or enter a specific date, time, and visitor count manually; charts and trend analysis update automatically as data grows
-3. **Fusion Innosoft Analytics tab** — View semester-level membership trends including total visits, gender breakdown, most active members, and how many members returned between semesters
-4. **Data tab** — Browse, download, or import historical check-in records; view the full processed membership dataset
+## Getting Started
 
-## Data
+1. Toggle between the **Turlock** and **Stockton** campus using the drop down menu on the right.
+   > Click on **Quick Log** to instantly log an individual walk in.
 
-| Source | Description |
-|--------|-------------|
-| `data_ai/facility_usage_fall_2023.csv` | AI-generated membership data for Fall 2023 (1,888 members), modeled after Fusion Innosoft export format |
-| `data_ai/facility_usage_spring_2024.csv` | AI-generated membership data for Spring 2024 (2,112 members) |
-| `data_ai/fitness_traffic.csv` | Live check-in log recorded by staff through the app |
+3. Use **Log a specific entry:** to log multiple entires at once.
+   > This allows you log numerous walk-ins at once with ease.
+   
+   > Simply select the **location, date, time, and how many indivuduals** entered the facility and click **Log Entry** on the bottom right.
 
-Historical check-ins can also be imported via CSV upload (columns: `date`, `time`, `visitors`, `campus`).
+## View Data Analysis
 
-## Built With
+1. Click on the **Fusion Innosoft Analytics** tab to view developing trends on your facilities foot traffic.
 
-- [Streamlit](https://streamlit.io) — Web app framework
-- [Pandas](https://pandas.pydata.org) — Data processing and analysis
-- [Plotly](https://plotly.com/python/) — Interactive charts and heatmaps
+   > View side by side comparisons between your fitness facilities.
+   
+   > Discover foot traffic trends to adjust your operating hours.
+
+   > Determine which locations are thriving to improve your other locations.
+   
+   > Make adjustments to your programming based on accurate data findings.
+
+
+
+2. Click on the **Data** tab to view detailed logs and data entries.
+
+   > Download data using the **Download Data CSV** button. 
+
+   > Scroll through processed detailed logs under the **Fusion Innosoft Raw Data** to view which members are using your facility and how often.
+
+
+## Uploading Your Own Data
+
+1. Upload your data using **Import Historical Check-ins** to find trends from previous semesters. For example:
+   > Upload raw data from software like "Fusion Innsoft" or other data tracking systems.
+   
+   > Turn those dull spreadsheets into meaninful data analytics by simplying uploading them onto the RecFlow App.
+2. Select **Upload...**
+3. Choose your file
+
+CSV files will automatically open as a table when you click them.
+
+---
+
+<center><i>
+Don't just track the movement –– command the flow. 
+<BR>
+Stop guessing. Start Flowing. 🚀
+</center></i>
